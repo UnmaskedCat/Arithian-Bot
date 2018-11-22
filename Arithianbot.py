@@ -31,8 +31,10 @@ async def on_message(message):
     if message.content.startswith('^8ball'):
         randomlist = ["Hell Yeah","Yes in Fade Time","Hell to the no","Never ever ever","Only Nick Bosa"]
         await client.send_message(message.channel,(random.choice(randomlist)))
-    if message.content == '^help':
-        await client.send_message(message.channel,'^ip | ^workshop | ^donate | ^8ball | ^apply')
     if message.content == '^apply':
         await client.send_message(message.channel,'https://arithiansnetworks.mistforums.com/category/staff-application-403464 Apply For Staff!')
-client.run('NTE0NDczMzA4ODU5NzkzNDA5.DtXGdA.mpaNRo5itP-mhvCtEwTxCfzGLBo')
+    if message.content == '^overview':
+        await client.send_message(message.channel,'https://www.youtube.com/watch?v=DMUeHumwd1s&t=1s')
+    if message.content == '^help':
+        await client.send_message(message.channel,'^ip | ^apply | ^donate | ^forums | ^workshop | ^overview | ^8ball')
+client.run('NTE0NDczMzA4ODU5NzkzNDA5.DtjBvQ.YkpJvl8aEa0vRJ8CINWNyjGvR0Q')
