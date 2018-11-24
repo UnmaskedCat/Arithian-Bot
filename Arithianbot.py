@@ -35,8 +35,8 @@ async def on_message(message):
         await client.send_message(message.channel,'https://arithiansnetworks.mistforums.com/category/staff-application-403464 Apply For Staff!')
     if message.content == '^overview':
         await client.send_message(message.channel,'https://www.youtube.com/watch?v=DMUeHumwd1s&t=1s')
-    if message.content == '^vote':
-        await client.send_message(message.channel,'https://topg.org/gmod-servers/in-502356 Get Our Server Seen More!')
     if message.content == '^help':
         await client.send_message(message.channel,'^ip | ^vote | ^forums | ^workshop | ^apply | ^donate | ^overview | ^8ball')
-client.run('NTE0NDczMzA4ODU5NzkzNDA5.Dtm9mw._z3GNKSjzjcmYmPLvnIlNrzsNL8')
+    if message.content == '^vote':
+        await client.send_message(message.channel,'https://www.trackyserver.com/server/vikings-star-wars-rp-grand-opening-fastdl-need-commanders-free-61676 and https://topg.org/gmod-servers/in-502356 Get Out Server Populated!')
+client.run('NTE0NDczMzA4ODU5NzkzNDA5.DtsKPg.He72xVFk6W5npzvAe2Vnyq0T77Y')
