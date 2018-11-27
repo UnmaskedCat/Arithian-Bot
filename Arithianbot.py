@@ -38,5 +38,5 @@ async def on_message(message):
     if message.content == '^help':
         await client.send_message(message.channel,'^ip | ^vote | ^forums | ^workshop | ^apply | ^donate | ^overview | ^8ball')
     if message.content == '^vote':
-        await client.send_message(message.channel,'https://www.trackyserver.com/server/vikings-star-wars-rp-grand-opening-fastdl-need-commanders-free-61676 and https://topg.org/gmod-servers/in-502356 Get Out Server Populated!')
-client.run('NTE0NDczMzA4ODU5NzkzNDA5.DtsKPg.He72xVFk6W5npzvAe2Vnyq0T77Y')
+        await client.send_message(message.channel,'https://www.trackyserver.com/server/vikings-star-wars-rp-grand-opening-fastdl-need-commanders-free-61676 and https://topg.org/gmod-servers/in-502356 Get Our Server Populated!')
+client.run('NTE0NDczMzA4ODU5NzkzNDA5.Dt40Tg.OUd_5_6Ti-zbIzX3P6eOsLRv1kg')
