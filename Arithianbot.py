@@ -14,7 +14,7 @@ Clientdiscord = discord.Client()
 
 @client.event
 async def on_ready():
-    await client.change_presence(game=Game(name='^help'))
+    await client.change_presence(game=Game(name='^help (Created by UnmaskedCat)'))
     print('Ready, Freddy') 
 
 
