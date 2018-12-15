@@ -20,7 +20,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.content == '^workshop':
+    if message.content == '^workshopdarkrp':
         await client.send_message(message.channel,'https://steamcommunity.com/sharedfiles/filedetails/?id=1448042260 Addons That Is Used On The Server!')
     if message.content == '^forums':
         await client.send_message(message.channel,'https://arithiansnetworks.mistforums.com/ Come Check Out Our Forums!')
@@ -33,12 +33,14 @@ async def on_message(message):
         await client.send_message(message.channel,'https://arithiansnetworks.mistforums.com/category/staff-application-403464 Apply For Staff!')
     if message.content == '^overview':
         await client.send_message(message.channel,'https://www.youtube.com/watch?v=DMUeHumwd1s&t=1s')
-    if message.content == '^help':
-        await client.send_message(message.channel,'^ip | ^vote | ^forums | ^workshop | ^apply | ^donate | ^overview | ^8ball')
     if message.content == '^vote':
         await client.send_message(message.channel,'https://www.serverpact.com/vote-41260 | https://www.trackyserver.com/server/vikings-star-wars-rp-grand-opening-fastdl-need-commanders-free-61676 |  https://topg.org/gmod-servers/in-502356 Get our server populated! ')
     if message.content == '^purgeip':
         await client.send_message(message.channel,'50.70.96.56')
     if message.content == '^darkrpip':
         await client.send_message(message.channel,'158.69.238.91:27015')
+    if message.content == '^help':
+        await client.send_message(message.channel,'^darkrpip | ^purgeip | ^vote | ^overview | ^apply | ^8ball | ^donate | ^forums | ^workshopdarkrp | ^workshoppurge')
+    if message.content == '^workshoppurge':
+        await client.send_message(message.channel,'https://steamcommunity.com/sharedfiles/filedetails/?id=1256097463')
 client.run('NTE0NDczMzA4ODU5NzkzNDA5.DvcR3Q.avZC-MbG_hOjc5lc6Okvj9ap4zU')
