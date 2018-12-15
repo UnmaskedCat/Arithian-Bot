@@ -20,8 +20,6 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.content == '^ip':
-        await client.send_message(message.channel,'158.69.238.91:27015 Come Join Us!')
     if message.content == '^workshop':
         await client.send_message(message.channel,'https://steamcommunity.com/sharedfiles/filedetails/?id=1448042260 Addons That Is Used On The Server!')
     if message.content == '^forums':
@@ -39,4 +37,8 @@ async def on_message(message):
         await client.send_message(message.channel,'^ip | ^vote | ^forums | ^workshop | ^apply | ^donate | ^overview | ^8ball')
     if message.content == '^vote':
         await client.send_message(message.channel,'https://www.serverpact.com/vote-41260 | https://www.trackyserver.com/server/vikings-star-wars-rp-grand-opening-fastdl-need-commanders-free-61676 |  https://topg.org/gmod-servers/in-502356 Get our server populated! ')
-client.run('NTE0NDczMzA4ODU5NzkzNDA5.DujNLg.OVTAlPp3RbuHXcDNuRFJ-XYTy1Q')
+    if message.content == '^purgeip':
+        await client.send_message(message.channel,'50.70.96.56')
+    if message.content == '^darkrpip':
+        await client.send_message(message.channel,'158.69.238.91:27015')
+client.run('NTE0NDczMzA4ODU5NzkzNDA5.DvcR3Q.avZC-MbG_hOjc5lc6Okvj9ap4zU')
