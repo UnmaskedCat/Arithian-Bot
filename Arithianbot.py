@@ -35,12 +35,12 @@ async def on_message(message):
         await client.send_message(message.channel,'https://www.youtube.com/watch?v=DMUeHumwd1s&t=1s')
     if message.content == '^vote':
         await client.send_message(message.channel,'https://www.serverpact.com/vote-41260 | https://www.trackyserver.com/server/vikings-star-wars-rp-grand-opening-fastdl-need-commanders-free-61676 |  https://topg.org/gmod-servers/in-502356 Get our server populated! ')
-    if message.content == '^purgeip':
-        await client.send_message(message.channel,'50.70.96.56')
     if message.content == '^darkrpip':
         await client.send_message(message.channel,'158.69.238.91:27015')
     if message.content == '^help':
         await client.send_message(message.channel,'^darkrpip | ^purgeip | ^vote | ^overview | ^apply | ^8ball | ^donate | ^forums | ^workshopdarkrp | ^workshoppurge')
     if message.content == '^workshoppurge':
         await client.send_message(message.channel,'https://steamcommunity.com/sharedfiles/filedetails/?id=1256097463')
-client.run('NTE0NDczMzA4ODU5NzkzNDA5.DvcR3Q.avZC-MbG_hOjc5lc6Okvj9ap4zU')
+    if message.content == '^purgeip':
+        await client.send_message(message.channel,'158.69.238.87:27015')
+client.run('NTE0NDczMzA4ODU5NzkzNDA5.DvgpJQ.ONLjUq6oiGNVO2KF5cjNqeWrfmk')
